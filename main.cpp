@@ -11,11 +11,11 @@ int main()
     VideoCapture capture;
     Mat frame, image;
 
-    capture.open("a.mp4");
+    capture.open(0);
 
     if(capture.isOpened())
     {
-        cout << "Detecçao de Face iniciada....\n" << endl;
+        cout << "DetecÃ§ao de Face iniciada....\n" << endl;
         while(1)
         {
             capture >> frame;
